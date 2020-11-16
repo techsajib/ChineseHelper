@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings.AboutDeveloper">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/about_developer_toolbar"
+            layout="@layout/about_developer_toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Design and Developed by"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/lastnocis"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/sajib"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FFFFFF"/>
+
+            <TextView
+                android:text="Papel (王磊)"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Student, AKU, China"
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/youtubeID"
+                android:src="@drawable/ic_youtube"
+                android:layout_marginRight="8dp"
+                android:layout_width="40dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/facebookID"
+                android:src="@drawable/ic_facebook"
+                android:layout_marginRight="8dp"
+                android:layout_width="40dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/instagramID"
+                android:src="@drawable/ic_instagram"
+                android:layout_marginRight="8dp"
+                android:layout_width="40dp"
+                android:layout_height="50dp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/developer_description"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HSK1.Word.H1Word104">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/hsk1_word104"
+            layout="@layout/hsk1_details_toolbar"/>
+
+        <LinearLayout
+            android:background="#f1f0f6"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:weightSum="10"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="电脑"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:textSize="30sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="diànnǎo"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="12sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="computer"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:layout_marginTop="4dp"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="zhè shì wǒ de diànnǎo"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:text="这是我的电脑"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="11sp"
+                            android:textAlignment="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="这=this, 是=is, 我=I, 的=mw, 电脑=computer"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="This is my computer"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="English Meaning" />
+
+                        <TextView
+                            android:text="我没有电脑"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#F44336"
+                            android:layout_marginTop="4dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="wǒ méiyǒu diànnǎo"
+                            android:textAlignment="center"
+                            android:textSize="11sp"
+                            android:textColor="#3F51B5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="I don't have a computer"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bangla Meaning" />
+
+                        <TextView
+                            android:text="他用了你的电脑"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="tā yòng le nǐ de diànnǎo"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="সে তোমার কম্পিউটার ব্যবহার করছে"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Uzbek Meaning" />
+
+                        <TextView
+                            android:text="他有两台电脑"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#F44336"
+                            android:layout_marginTop="4dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="tā yǒu liǎng tái diànnǎo"
+                            android:textAlignment="center"
+                            android:textSize="11sp"
+                            android:textColor="#3F51B5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Unda ikkita kompyuter bor"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Russian Meaning" />
+
+                        <TextView
+                            android:text="我想买电脑"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="wǒ xiǎng mǎi diànnǎo"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Я хочу купить компьютер"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Urdu Meaning" />
+
+                        <TextView
+                            android:text="我喜欢我的电脑"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="wǒ xǐhuān wǒ de diànnǎo"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="مجھے اپنا کمپیوٹر پسند ہے"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Arabic Meaning" />
+
+                        <TextView
+                            android:text="他不喜欢电脑"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="tā bù xǐhuān diànnǎo"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="لا يحب الكمبيوتر"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="French Meaning" />
+
+                        <TextView
+                            android:text="我看电脑"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#F44336"
+                            android:layout_marginTop="4dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="wǒ kàn diànnǎo"
+                            android:textAlignment="center"
+                            android:textSize="11sp"
+                            android:textColor="#3F51B5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Je regarde l'ordinateur"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Spanish Meaning" />
+
+                        <TextView
+                            android:text="我的电脑在桌上"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="wǒ de diànnǎo zài zhuō shàng"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mi computadora está sobre la mesa"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:weightSum="2"
+                android:elevation="16dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/w104_button1"
+                    android:layout_weight="1"
+                    android:text="Back"
+                    android:layout_marginRight="3dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"/>
+
+                <Button
+                    android:id="@+id/w104_button2"
+                    android:layout_weight="1"
+                    android:text="Next"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

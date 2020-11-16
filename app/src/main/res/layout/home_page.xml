@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/main_toolbar"
+            layout="@layout/home_toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VOCABULARY LEVEL" />
+
+
+            <ListView
+                android:id="@+id/mainListView"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRACTICE SESSION" />
+
+            <androidx.cardview.widget.CardView
+                android:outlineSpotShadowColor="@color/colorPrimary"
+                app:cardBackgroundColor="#F2F2F3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/greetingsID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_greeting" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Greetings"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/commonID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_common" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Common"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/numbersID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_numbers" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Numbers"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/timedateID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_timedate" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Time-Date"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/nationalityID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_nationality" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Nationality"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/countriesID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_countries" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Countries"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/professionID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_profession" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Profession"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/emergencyID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_emergency" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Emergency"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/transportationID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_transport" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Transport"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/directionID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_directions" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Direction"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/familyID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_family" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Family"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/healthID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_health" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Health"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/accommodationID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_accomodation" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Accommo"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/foodID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_food" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Food"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/fruitsID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_fruit" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Fruits"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/studiesID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_studies" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Studies"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/animalsID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_animal" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Animals"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/sportsID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_sports" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Sports"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/colorsID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_color" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Colors"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/weatherID"
+                            android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="1dp"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="60dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/ic_weather" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="Weather"
+                                    android:textSize="12sp"
+                                    android:textColor="#000"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

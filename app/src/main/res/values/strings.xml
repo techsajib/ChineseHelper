@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Chinese Helper</string>
+    <string name="app_des">Let\'s Learn Chinese</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="featureshsk">Features (HSK level)</string>
+    <string name="categories">Categories</string>
+    <string name="categories_item">\u25CF Greetings\n\u25CF Common\n\u25CF Numbers\n\u25CF Time-Date\n\u25CF Nationality\n\u25CF Countries\n\u25CF Profession\n\u25CF Emergency\n\u25CF Transport\n\u25CF Direction\n\u25CF Family\n\u25CF Health\n\u25CF Accommodation\n\u25CF Food\n\u25CF Fruits\n\u25CF Studies\n\u25CF Animals\n\u25CF Sports\n\u25CF Colors\n\u25CF Weather</string>
+    <string name="features_item">\u25CF HSK 1 Vocabulary\n\u25CF HSK 2 Vocabulary\n\u25CF HSK 3 Vocabulary\n\u25CF HSK 4 Vocabulary</string>
+    <string name="app_details">\'Chinese Helper\' is a Chinese learning app with an easy and effective way for beginners. \'Chinese Helper\' app provides almost HSK 4 vocabulary including 20 different categories for practicing Chinese regularly. Every feature of the app has been designed in a very simple way to make the \'Chinese Helper\' app very effective for beginner Chinese learners. Also, the phrasebook that is used in daily life is arranged in each category in this app very neatly, which will motivate and make it easier for our users to learn Chinese.</string>
+
+    <string name="tip_resource">The Chinese language is one of the oldest languages in the world, spoken by more than 1.2 billion people, and one of the most powerful and challenging languages in the world. The official language of China is Mandarin, which is the very name of \'Hanyu\' or \'Putonghua\', belonging to Sino-Tibetan. Chinese Mandarin is a tonal language which means pronouncing the same word with different tones, it can change the whole meaning of your sentence. In an attempt to make the Chinese language more understandable to the western world, China developed the pinyin system. The pinyin system uses the western alphabet and spelling to pronounce Chinese words. \n\nTo learn about details Chinese Mandarin, here is some important resources link: </string>
+
+    <string name="website_name">Website Resources</string>
+    <string name="sitename">\u25CF www.hsk.academy\n\u25CF www.duolingo.com\n\u25CF www.chinesepod.com\n\u25CF www.digmandarin.com\n\u25CF www.everydaychinese.com\n\u25CF www.purpleculture.net\n\u25CF www.chinesefor.us\n\u25CF www.chineasy.com\n\u25CF www.wikipedia.org/wiki/Pinyin</string>
+
+    <string name="youtube_channel">Youtube Channel</string>
+    <string name="chaneel_item">\u25CF YangYang\n\u25CF HSK Academy\n\u25CF Yoyo Chinese\n\u25CF Chineasy\n\u25CF ChineseFor.us\n\u25CF Litao Chinese\n\u25CF ChineseClass101\n\u25CF Chinese Podcast\n\u25CF Mandarin Corner\n\u25CF Slow and Clear Chinese\n\u25CF Chinese Buddy\n\u25CF Learn Chinese Now\n\u25CF ShuoshuoChinese说说中文\n\u25CF Smart Mandarin\n\u25CF JJsays - 雪莲说\n\u25CF Everyday Chinese\n\u25CF Learn Chinese with Yi Zhao</string>
+
+    <string name="developer_description">Hello Everyone, This is MD Sazibur Rahman Papel (王磊), I\'m a student of Computer Science and Technology at Ankang University in Shaanxi Province, China. Also Editor of Brahmanbaria Tribune and Author of Article for People and founder of Our Brahmanbaria App.\n\nI have been living in China for almost two years and that\'s why I got the opportunity to learn the Chinese language. and Undoubtedly, Chinese language is one of the oldest languages in the world, spoken by more than 1.2 billion people, and it is one of the most powerful and challenging languages in the world.\n\nTherefore, Personally I have taken the initiative to create this app to show the inner beauty of this language and make it easier and smooth for every Chinese learner. \n\nHappy Chinese Learning!</string>
+
+
+</resources>

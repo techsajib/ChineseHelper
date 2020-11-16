@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HSK1.Word.H1Word75">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/hsk1_word75"
+            layout="@layout/hsk1_details_toolbar"/>
+
+        <LinearLayout
+            android:background="#f1f0f6"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:weightSum="10"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="日"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:textSize="30sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="rì"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="12sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="day"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:layout_marginTop="4dp"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="shēngrì kuàilè!"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:text="生日快乐！"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="11sp"
+                            android:textAlignment="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="生日=birthday, 快乐=happy!"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Happy Birthday!"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="English Meaning" />
+
+                        <TextView
+                            android:text="你的生日是几号？"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#F44336"
+                            android:layout_marginTop="4dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="nǐ de shēngrì shì jǐ hào?"
+                            android:textAlignment="center"
+                            android:textSize="11sp"
+                            android:textColor="#3F51B5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="What day is your birthday?"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bangla Meaning" />
+
+                        <TextView
+                            android:text="他爸爸是日本人"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="tā bàba shì rìběn rén"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="তার বাবা জাপানি"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Uzbek Meaning" />
+
+                        <TextView
+                            android:text="你是日本人吗？"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#F44336"
+                            android:layout_marginTop="4dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="nǐ shì rìběn rén ma?"
+                            android:textAlignment="center"
+                            android:textSize="11sp"
+                            android:textColor="#3F51B5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Siz yaponmisiz?"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Russian Meaning" />
+
+                        <TextView
+                            android:text="今天是10月18日"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="jīntiān shì 10 yuè 18 rì"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Сегодня 18 октября"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Urdu Meaning" />
+
+                        <TextView
+                            android:text="下周是他的生日"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="xià zhōu shì tā de shēngrì"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="اگلے ہفتے ان کی سالگرہ ہے"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Arabic Meaning" />
+
+                        <TextView
+                            android:text="日本菜怎么样?"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="rìběn cài zěnme yàng?"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ماذا عن الطعام الياباني؟"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="French Meaning" />
+
+                        <TextView
+                            android:text="今天是8月10日"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#F44336"
+                            android:layout_marginTop="4dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="jīntiān shì 8 yuè 10 rì"
+                            android:textAlignment="center"
+                            android:textSize="11sp"
+                            android:textColor="#3F51B5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Aujourd'hui, le 10 août"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp"
+                    android:layout_margin="3dp">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="#ACA5A5"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Spanish Meaning" />
+
+                        <TextView
+                            android:text="明天是12月10日"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#F44336"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="míngtiān shì 12 yuè 10 rì"
+                            android:textAlignment="center"
+                            android:textColor="#3F51B5"
+                            android:textSize="11sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="mañana es 10 de diciembre"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:weightSum="2"
+                android:elevation="16dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/w75_button1"
+                    android:layout_weight="1"
+                    android:text="Back"
+                    android:layout_marginRight="3dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"/>
+
+                <Button
+                    android:id="@+id/w75_button2"
+                    android:layout_weight="1"
+                    android:text="Next"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

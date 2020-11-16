@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techsajib.chinesehelper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/chinese_helper_official_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Practical.Weather.Weather" android:parentActivityName=".HomePage"/>
+        <activity
+            android:name=".Practical.Colors.Colors"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Sports.Sports"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Animals.Animals"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Studies.Studies"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Fruits.Fruits"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Food.Food"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Accomodation.Accomodation"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Health.Health"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Family.Family"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Direction.Direction"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Transportation.Transportation"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Emergency.Emergency"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Profession.Profession"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Countries.Countries"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Nationality.Nationality"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.TimeDate.TimeDate"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Numbers.Numbers"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Settings.AboutDeveloper"
+            android:parentActivityName=".Settings.SettingsPage" />
+        <activity
+            android:name=".Settings.TipsResource"
+            android:parentActivityName=".Settings.SettingsPage" />
+        <activity
+            android:name=".Settings.AboutChineseHelper"
+            android:parentActivityName=".Settings.SettingsPage" />
+        <activity
+            android:name=".Settings.SettingsPage"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Common.Common"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Practical.Greetings.Greetings"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".HSK4.HSK4Listview"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".HSK3.HSK3ListView"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".HSK1.Word.H1Word152"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word151"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word150"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word149"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word148"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word147"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word146"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word145"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word144"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word143"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word142"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word141"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word140"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word139"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word138"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word137"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word136"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word135"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word134"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word133"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word132"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word131"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word130"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word129"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word128"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word127"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word126"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word125"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word124"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word123"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word122"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word121"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word120"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word119"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word118"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word117"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word116"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word115"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word114"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word113"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word112"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word111"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word110"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word109"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word108"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word107"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word106"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word105"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word104"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word103"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word102"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word101"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word100"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word99"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word98"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word97"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word96"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word95"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word94"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word93"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word92"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word89"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word88"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word87"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word86"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word85"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word84"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word83"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word82"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word81"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word80"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word79"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word78"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word77"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word76"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word75"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK2.HSK2ListView"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".HSK1.Word.H1Word74"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word73"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word72"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word71"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word70"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word69"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word68"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word67"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word66"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word65"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word64"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word63"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word62"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word61"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word60"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word59"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word58"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word57"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word56"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word55"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word54"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word53"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word52"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word51"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word50"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word49"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word48"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word47"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word46"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word45"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word44"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word43"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word42"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word41"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word40"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word39"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word38"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word37"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word36"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word35"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word34"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word33"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word32"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word31"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word30"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word29"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word28"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word27"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word26"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word25"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word24"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word23"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word22"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word21"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word20"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word19"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word18"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word16"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word15"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word14"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word13"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word12"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word11"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word10"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word9"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word8"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word7"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word6"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word5"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word4"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word3"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.Word.H1Word2"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".Firebase.FirebasePost"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".HSK1.Word.H1Word1"
+            android:parentActivityName=".HSK1.HSK1ListView" />
+        <activity
+            android:name=".HSK1.HSK1ListView"
+            android:parentActivityName=".HomePage" />
+
+        <activity android:name=".Splash.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

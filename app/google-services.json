@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "434993286683",
+    "firebase_url": "https://chinese-helper-5e687.firebaseio.com",
+    "project_id": "chinese-helper-5e687",
+    "storage_bucket": "chinese-helper-5e687.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434993286683:android:ac43517d733110a70ab2be",
+        "android_client_info": {
+          "package_name": "com.techsajib.chinesehelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434993286683-9v6vhmicliajmp4fiet84pc2sfc6d8jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFHdZL_FnPsTk9R_l9hm-i2_64kp_9AU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434993286683-9v6vhmicliajmp4fiet84pc2sfc6d8jh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

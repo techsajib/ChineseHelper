@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/firebase_post"
+        android:icon="@drawable/news_feed_icon"
+        android:title="Post"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings_icon"
+        android:title="Home"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
