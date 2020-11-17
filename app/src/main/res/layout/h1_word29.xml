@@ -304,7 +304,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="To'rt qiz"
+                            android:text="To'rta qiz"
                             android:textSize="12sp"
                             android:fontFamily="@font/poppins_regular"
                             android:textColor="#000"

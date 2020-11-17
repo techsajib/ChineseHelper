@@ -359,7 +359,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Эта машина красивая"
+                            android:text="Это красивая машина"
                             android:fontFamily="@font/poppins_regular"
                             android:textColor="#000"
                             android:textAlignment="center"

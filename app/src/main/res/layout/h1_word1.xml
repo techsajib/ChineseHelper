@@ -31,7 +31,6 @@
             android:layout_height="match_parent">
 
             <androidx.cardview.widget.CardView
-                android:onClick="audio"
                 android:layout_weight="3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -304,7 +303,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Men o'zbek xalqiman"
+                        android:text="Men o'zbekman"
                         android:textSize="12sp"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="#000"

@@ -22,6 +22,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.techsajib.chinesehelper.Firebase.FirebasePost;
 import com.techsajib.chinesehelper.HSK1.HSK1ListView;
 import com.techsajib.chinesehelper.HSK2.HSK2ListView;
@@ -51,6 +56,9 @@ import com.techsajib.chinesehelper.Settings.SettingsPage;
 
 public class HomePage extends AppCompatActivity {
 
+    //admob ad variable
+    private AdView bannerAd;
+
     ListView listView;
     CardView greetings, common, numbers, timedate, nationality, countries, profession, emergency, transportation, direction,
             family, health, accommodation, food, fruits, studies, animals, sports, colors, weather;
@@ -64,6 +72,17 @@ public class HomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_page);
+
+        //for banner ad system
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        bannerAd = findViewById(R.id.bannerAd1);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        bannerAd.loadAd(adRequest);
 
 
         // for Homepage Toolbar settings here

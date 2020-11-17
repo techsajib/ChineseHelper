@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:orientation="vertical"
             android:padding="8dp"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <TextView
                 android:text="Chinese Helper"
@@ -43,7 +43,16 @@
             <ListView
                 android:id="@+id/settingsListView"
                 android:layout_width="match_parent"
-                android:layout_height="400dp" />
+                android:layout_height="280dp" />
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/bannerAd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_id">
+            </com.google.android.gms.ads.AdView>
 
         </LinearLayout>
 

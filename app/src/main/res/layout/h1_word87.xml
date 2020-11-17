@@ -360,7 +360,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Сколько у тебя одноклассников?"
+                            android:text="Сколько  у тебя есть одноклассников?"
                             android:fontFamily="@font/poppins_regular"
                             android:textColor="#000"
                             android:textAlignment="center"

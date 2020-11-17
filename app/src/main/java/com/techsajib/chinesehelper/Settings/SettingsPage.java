@@ -19,10 +19,18 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.techsajib.chinesehelper.BuildConfig;
 import com.techsajib.chinesehelper.R;
 
 public class SettingsPage extends AppCompatActivity {
+
+    //admob ad variable
+    private AdView bannerAd;
 
     ListView listView;
 
@@ -33,6 +41,17 @@ public class SettingsPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings_page);
+
+        //for banner ad system
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        bannerAd = findViewById(R.id.bannerAd2);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        bannerAd.loadAd(adRequest);
 
         // for settings Toolbar settings here
         Toolbar toolbar = findViewById(R.id.settings_toolbar);

@@ -360,7 +360,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="мама пошла в магазин"
+                            android:text="Мама ушла в магазине"
                             android:fontFamily="@font/poppins_regular"
                             android:textColor="#000"
                             android:textAlignment="center"

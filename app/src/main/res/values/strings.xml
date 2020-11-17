@@ -2,7 +2,6 @@
     <string name="app_name">Chinese Helper</string>
     <string name="app_des">Let\'s Learn Chinese</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="featureshsk">Features (HSK level)</string>
     <string name="categories">Categories</string>
     <string name="categories_item">\u25CF Greetings\n\u25CF Common\n\u25CF Numbers\n\u25CF Time-Date\n\u25CF Nationality\n\u25CF Countries\n\u25CF Profession\n\u25CF Emergency\n\u25CF Transport\n\u25CF Direction\n\u25CF Family\n\u25CF Health\n\u25CF Accommodation\n\u25CF Food\n\u25CF Fruits\n\u25CF Studies\n\u25CF Animals\n\u25CF Sports\n\u25CF Colors\n\u25CF Weather</string>
@@ -19,5 +18,8 @@
 
     <string name="developer_description">Hello Everyone, This is MD Sazibur Rahman Papel (王磊), I\'m a student of Computer Science and Technology at Ankang University in Shaanxi Province, China. Also Editor of Brahmanbaria Tribune and Author of Article for People and founder of Our Brahmanbaria App.\n\nI have been living in China for almost two years and that\'s why I got the opportunity to learn the Chinese language. and Undoubtedly, Chinese language is one of the oldest languages in the world, spoken by more than 1.2 billion people, and it is one of the most powerful and challenging languages in the world.\n\nTherefore, Personally I have taken the initiative to create this app to show the inner beauty of this language and make it easier and smooth for every Chinese learner. \n\nHappy Chinese Learning!</string>
 
+    <!-- TODO: Admob Add ID and  -->
+    <string name="banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_id">ca-app-pub-3940256099942544/1033173712</string>
 
 </resources>

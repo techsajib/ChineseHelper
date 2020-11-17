@@ -304,7 +304,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Mening ismim juda kichik"
+                            android:text="Meni ismim juda qisa"
                             android:textSize="12sp"
                             android:fontFamily="@font/poppins_regular"
                             android:textColor="#000"
