@@ -18,8 +18,8 @@
 
     <string name="developer_description">Hello Everyone, This is MD Sazibur Rahman Papel (王磊), I\'m a student of Computer Science and Technology at Ankang University in Shaanxi Province, China. Also Editor of Brahmanbaria Tribune and Author of Article for People and founder of Our Brahmanbaria App.\n\nI have been living in China for almost two years and that\'s why I got the opportunity to learn the Chinese language. and Undoubtedly, Chinese language is one of the oldest languages in the world, spoken by more than 1.2 billion people, and it is one of the most powerful and challenging languages in the world.\n\nTherefore, Personally I have taken the initiative to create this app to show the inner beauty of this language and make it easier and smooth for every Chinese learner. \n\nHappy Chinese Learning!</string>
 
-    <!-- TODO: Admob Add ID and  -->
-    <string name="banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_ad_id">ca-app-pub-3940256099942544/1033173712</string>
+    <!-- TODO: Admob Ad ID and  -->
+    <string name="banner_ad_id"></string>
+    <string name="interstitial_ad_id"></string>
 
 </resources>
